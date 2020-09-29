@@ -11,3 +11,17 @@
 # Outputs:
 # "the number is even"
 # "the number is odd"
+
+number = float(input("pick a number"))
+
+print("=============================")
+print("Determine if the number is an even number.")
+print("=============================")
+a = number
+b = 22
+value = a==b
+print(value)
+if value:
+  print("The if statement is executed because")
+  print("the condition is true")
+print("=============================\n\n\n")
