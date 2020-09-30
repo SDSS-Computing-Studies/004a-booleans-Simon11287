@@ -12,14 +12,9 @@
 # "The number is smaller than 100"
 # "The number is 100"
 
-a = float(input("pick a number: "))
 
 print("=============================")
-print("Determine if the number is larger than 100 ")
-print("=============================")
-
-print("=============================")
-print("Determine if the number is larger than 100 ")
+print("Determine if a number is larger than 100 ")
 print("=============================")
 A = float(input("pick a number: "))
 B = 100
@@ -28,10 +23,10 @@ Equal = True
 Smaller=  True
 Larger = True
 
-if Larger :
+if A > B :
   print("The number is larger than 100")
 
-elif Smaller :
+elif A < B :
   print("The number is smaller than 100")
 
 else :
