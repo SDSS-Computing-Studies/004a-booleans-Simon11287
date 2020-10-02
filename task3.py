@@ -17,3 +17,32 @@
 # "2" : The number is 100 or a number up to 1000 
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
+
+print("=============================")
+print("Determine if a number is larger than 0, 10, 100, 1000")
+print("=============================")
+A = float(input("pick a number: "))
+B = 0
+C = 10
+D = 100
+E = 1000
+
+
+Larger0 = True
+Larger10 =  True
+Larger100 = True
+Larger1000 = True
+
+if A > B and A == B :
+  print("The number is larger than 0")
+
+elif A > C :
+  print("The number is larger than 10")
+
+elif A > D :
+    print("the number is larger then 100")
+
+else :
+  print("The number is over 1000")
+  
+print("=============================\n\n\n")
