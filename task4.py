@@ -12,11 +12,8 @@
 
 PasswordInSentence = True
 PasswordNotInSentence = False
-
-Sentence = input("type a sentence")
-if PasswordInSentence:
-  print("Password in Sentence")
-
+a=input("Enter sentence")
+if "password" in a:
+    print("the sentence contains password")
 else:
-  print("PasswordNotInSentence")
-print("=============================\n\n\n")
+    print("the sentence does not contain password")
