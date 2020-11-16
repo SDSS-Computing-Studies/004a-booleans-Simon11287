@@ -18,6 +18,7 @@
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
 
+
 print("=============================")
 print("Determine if a number is larger than 0, 10, 100, 1000")
 print("=============================")
@@ -33,13 +34,13 @@ Larger10 =  True
 Larger100 = True
 Larger1000 = True
 
-if A > B and A == B :
+if C > A > B or A == B :
   print("The number is larger than 0")
 
-elif A > C :
+elif D > A > C or A == C:
   print("The number is larger than 10")
 
-elif A > D :
+elif E > A > D or A == D :
     print("the number is larger then 100")
 
 else :
