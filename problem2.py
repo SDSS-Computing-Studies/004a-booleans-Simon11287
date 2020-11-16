@@ -12,15 +12,10 @@
 # "the number is not an integer"
 
 import math
-
-print("=============================")
-print(" Determine if the number is an integer ")
-print("=============================")
-a = float(input("enter a number: "))
-b = "math.ceil"
-if a == b :
-  print("The if statement is executed because")
-  print("This number an interger")
+a=input("Enter a number")
+a=float(a)
+b=math.floor(a)
+if a==b:
+    print("A is an integer")
 else:
-  print("This number is not an interger")
-print("=============================\n\n\n")
+    print("A is not an integer")
