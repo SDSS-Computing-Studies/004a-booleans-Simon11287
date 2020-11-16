@@ -15,3 +15,19 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+
+import math
+a=input("Enter value a")
+b=input("Enter value b")
+c=input("Enter value c")
+a=float(a)
+b=float(b)
+c=float(c)
+x=math.pow(b,2)-4*a*c 
+
+z=math.sqrt(x)
+y=math.floor(z)
+if z==y: 
+    print("the equation can be factored")
+else:
+    print("the equation can not be factored")
